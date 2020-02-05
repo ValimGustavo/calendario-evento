@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Painel de gerenciamento de eventos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="menu"></div> <!-- Menu para selecionar ações do usuario -->
+    <div id="login"></div> <!-- area para logar-->
+    <div id="tabela"></div> <!-- tabela com lista de eventos -->
+    <div id="evento"></div> <!-- mostra detalhes de um evento -->
+
+    <script src="./js/CRUD.js"></script>
+    <script src="./js/funcoes.js"></script>
+    <script src="./js/classes.js"></script>
+    <script>
+        window.onload = function(){
+            if(localStorage.getItem("token")){
+                templatePadraoLogado();
+            }else{
+                templateLogin();    
+            }   
+        }; 
+    </script>
+</body>
+</html>

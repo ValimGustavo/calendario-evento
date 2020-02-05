@@ -1,0 +1,76 @@
+#login {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#login > input {
+    height: 20vh;
+    font-size:15vh;
+    width:80vw;
+    margin-bottom: 1%;
+    display:block;
+}
+
+#login > button {
+    height:10vh;
+    width:30vw;
+    margin-left: 10%;
+    
+}
+#menu {
+    margin-bottom:5%;
+}
+
+#menu > button {
+    margin-top: 5%;
+    margin-left: 10%; 
+    height:10vh;
+    width:35vw;
+}
+
+
+#tabela > table {
+    margin: auto;
+}
+
+#tabela > table > caption{
+    font-size: 6rem;
+    text-align: center;
+}
+
+#tabela > table > thead > tr > th {
+    font-size: 3rem;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#tabela > table > tbody > tr > td {
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#tabela > table > tbody > tr:hover {
+    background-color: lightblue;
+}
+
+
+#evento > input, textarea {
+    display:block;
+    height:8rem;
+    width:80%;
+    margin:auto;
+    font-size:3rem;
+}
+
+#evento > button {
+    margin-top: 5%;
+    margin-left: 33%; 
+    height:10vh;
+    width:35vw;
+    font-size:3rem;
+    
+}
